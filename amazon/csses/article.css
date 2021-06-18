@@ -1,0 +1,324 @@
+#pageContent {
+	background: #EAEDED;
+	margin: 0 auto;
+	max-width: none;
+	min-width: 1000px;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+	box-sizing: border-box;
+}
+
+#pageContent * {
+	box-sizing: border-box;
+}
+
+#pageContent #desktop-banner {
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.cropped-image-map-size {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+}
+
+.cropped-image-map-size .a-link-normal {
+	text-align: center;
+	cursor: pointer;
+}
+
+.cropped-image-map-size img {
+	max-width: none;
+	vertical-align: top;
+	border: 0;
+	text-align: center;
+	height: 300px;
+	aspect-ratio: auto 1500 / 300;
+	width: 1500px;
+	margin: 0 -100%;
+}
+
+#gw-layout {
+	padding: 20px 10px 20px;
+	position: relative;
+	margin-bottom: 0 !important;
+}
+
+#gw-layout #gw-content-grid {
+	max-width: 1480px;
+	margin: 0 auto;
+	margin-bottom: 24px !important;
+}
+
+#gw-content-grid hr {
+	display: block;
+	height: 20px;
+	border: none;
+	margin: 0;
+	flex: 1 0 100%;
+}
+
+#main-content {
+	margin: 0;
+	overflow: hidden;
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 13px !important;
+	line-height: 19px !important;
+	margin-bottom: 0 !important;
+}
+
+#main-content #desktop-1 {
+	flex: 1 0 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 290px;
+}
+
+#desktop-1 .cropped-image-map-size img {
+	max-width: none;
+	vertical-align: top;
+	border: 0;
+	text-align: center;
+	height: 200px;
+	aspect-ratio: auto 1500 / 200;
+	width: 1500px;
+}
+
+#main-content #desktop-2 {
+	flex: 1 0 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 290px;
+}
+
+#desktop-2 .cropped-image-map-size img {
+	max-width: none;
+	vertical-align: top;
+	border: 0;
+	text-align: center;
+	height: 300px;
+	aspect-ratio: auto 1500 / 300;
+	width: 1500px;
+}
+
+#gw-layout #desktop-btf-grid-1 {
+	height: 420px;
+	min-height: 420px;
+	flex: 1 0 290px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 290px;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-cardui {
+	background: #fff;
+	height: 100%;
+	position: relative;
+	margin-bottom: 0;
+	margin-top: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0 15px 0;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-cardui .a-cardui-header {
+	padding: 0 20px;
+	margin-bottom: 10px;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-cardui .a-cardui-header h2 {
+	font-size: 21px !important;
+	line-height: 27.3px !important;
+	max-height: 54.6px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-cardui-body {
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	height: 275px;
+	margin-bottom: 44px;
+	padding: 0 20px;
+	position: relative;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-cardui-body .a-link-normal {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	position: relative;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-cardui-body .a-link-normal img {
+	height: 100%;
+	max-height: 100%;
+	max-width: none;
+	margin: 0 -100%;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-cardui-footer {
+	padding: 0 20px;
+	margin-bottom: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-link-normal {
+	text-decoration: none;
+	color: #007185;
+	white-space: nowrap;
+}
+
+#gw-layout #desktop-btf-grid-1 .a-link-normal:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #C7511F;
+}
+
+#gw-layout #desktop-3 {
+	flex: 1 0 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 290px;
+}
+
+#gw-layout #desktop-3 .cropped-image-map-size {
+	background: #fff;
+	padding: 10px 20px;
+}
+
+#gw-layout #desktop-3 .a-section .as-title-block {
+	white-space: nowrap;
+	overflow: hidden;
+	margin-bottom: 25px;
+	margin: 10px 0 0;
+}
+
+#gw-layout #desktop-3 .a-section .as-title-block .as-title-block-left {
+	display: block;
+	width: auto;
+	float: left;
+	font-size: 21px;
+	line-height: 1.5 !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 400;
+	padding-bottom: 0;
+}
+
+#gw-layout #desktop-3 .a-section .as-title-block .as-title-block-right {
+	display: block;
+	width: auto;
+	float: left;
+	text-align: right;
+	font-size: 14px;
+	vertical-align: middle;
+	padding-left: 15px;
+	line-height: 35px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#gw-layout #desktop-3 .a-section .as-title-block .as-title-block-right a {
+	text-decoration: none;
+	color: #007185;
+}
+
+#gw-layout #desktop-3 .a-section .as-title-block .as-title-block-right a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #C7511F;
+}
+
+#gw-layout #desktop-3 .feed-carousel {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#gw-layout #desktop-3 .feed-carousel-viewport {
+	width: 100%;
+	min-height: 220px;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	
+}
+
+#gw-layout #desktop-3 .feed-carousel-viewport .a-unordered-list {
+	left: 0px;
+	display: inline-block;
+	position: relative;
+	margin: 0 0 14px;
+	padding: 0;
+}
+
+#gw-layout #desktop-3 .feed-carousel-viewport .feed-carousel-card {
+	display: inline-block;
+	margin-right: 10px;
+	margin: 0 10px 0 0;
+	text-align: center;
+	min-width: 145px;
+	max-width: 270px;
+	max-height: 200px;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	min-height: 200px;
+	white-space: nowrap;
+}
+
+#gw-layout #desktop-3 .feed-carousel .a-link-normal {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	min-width: 145px;
+	color: #0F1111;
+}
+
+#gw-layout #desktop-3 .feed-carousel-card img {
+	width: auto;
+	height: auto;
+	max-width: 270px;
+	max-height: 200px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#gw-layout #desktop-3 .feed-scrollbar {
+	display: block;
+	position: absolute;
+	height: 6px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	-webkit-user-select: none;
+	font-size: 0;
+}
+
+#gw-layout #desktop-3 .feed-scrollbar .feed-scrollbar-thumb {
+	width: 437.067px;
+	left: 0px;
+	display: none;
+	background-color: #aaa;
+	height: 6px;
+	border-radius: 6px;
+	position: absolute;
+	top: -2px;
+	margin: 0;
+	cursor: pointer;
+}

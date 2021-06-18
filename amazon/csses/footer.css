@@ -1,0 +1,136 @@
+#navFooter {
+	margin: 30px 0 8px 0;
+	padding: 0 0 7px 0;
+}
+
+#navFooter .navFooterVerticalColumn {
+	display: table;
+	margin: 0 auto;
+}
+
+#navFooter .navFooterVerticalColumn .navFooterVerticalRow {
+	width: 430px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+#navFooter .navFooterVerticalRow ul {
+	float: left;
+	font-size: 12px;
+	padding: 0 10px;
+	line-height: 14px;
+}
+
+#navFooter .navFooterVerticalRow ul span {
+	display: inline-block;
+	font-family: inherit;
+	color: #333;
+	font-size: 16px;
+	margin: 6px 0 14px 0;
+	white-space: nowrap;
+}
+
+#navFooter .navFooterVerticalRow ul li {
+	white-space: nowrap;
+	margin: 0 0 8px 0;
+	font-family: inherit;
+
+}
+
+#navFooter .navFooterVerticalRow ul li a {
+	color: #004B91;
+	text-decoration: none;
+}
+
+#navFooter .navFooterVerticalRow ul li a:hover {
+	font-family: inherit;
+	color: #E47911;
+	text-decoration: underline;
+}
+
+.navFooterLogoLine {
+	margin: 30px 8px 4px 8px;
+	font-size: 1px;
+	line-height: 0;
+}
+
+.navFooterLogoLine a {
+	text-align: center;
+	font-family: inherit;
+	color: #004B91;
+	text-decoration: none;
+	display: block;
+	margin: auto;
+}
+
+.navFooterLine {
+	font-family: inherit;
+	color: #767676;
+	font-size: 11px;
+	text-align: center;
+	line-height: 18px;
+	white-space: nowrap;
+	margin: 0 8px 0 8px;
+}
+
+#navFooter .navFooterLine ul {
+	width: 586px;
+	display: block;
+	margin: auto;
+}
+
+#navFooter .navFooterLine li {
+	border-left: 1px solid #999;
+	line-height: 18px;
+	font-size: 11px;
+	float: left;
+	padding: 0 .6em;
+	color: #004B91;
+}
+
+#navFooter p {
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+	margin: 0 8px 0 8px;
+}
+
+.blue {
+	color: blue;
+}
+
+#fixedtool {
+	font-size: 12px;
+	height: 44px;
+	position: relative;
+	text-decoration: none;
+	padding: 6px 8px 0;
+	background: #fff;
+	transition: all .2s;
+	color: #3C3C3C;
+	text-align: center;
+	border-bottom: 1px solid #efefef;
+	width: 24px;
+	position: fixed;
+	right: 0px;
+	bottom: 20%;
+	font-weight: 700;
+	opacity: 0;
+}
+
+#fixedtool:hover {
+	cursor: pointer;
+}
+
+.tb-ifont {
+	color: #999;
+	position: relative;
+	line-height: 20px;
+	font-style: normal;
+	font-size: 30px;
+	font-weight: 800;
+	display: block;
+	font-family: iconfont !important;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}

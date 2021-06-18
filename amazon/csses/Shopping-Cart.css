@@ -1,0 +1,207 @@
+/* body {
+    font-family: 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
+} */
+
+#sc-retail-cart-container * {
+    box-sizing: border-box;
+}
+
+#sc-retail-cart-container {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #EAEDED !important;
+}
+
+.a-fixed-right-grid-inner {
+    margin: 0 auto;
+    width: 1227px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.a-fixed-right-grid-col {
+    overflow: hidden;
+    zoom: 1;
+    width: auto;
+    padding-right: 20px !important;
+    position: relative;
+    min-height: 1px;
+}
+
+.sc-active-cart {
+    margin-bottom: 20px;
+    background-color: #FFF;
+    overflow: auto;
+    padding: 20px 0 15px 0;
+    float: left;
+}
+
+.a-cardui-body {
+    padding: 0 20px;
+    position: relative;
+    padding-bottom: 5px;
+    width: 900px;
+}
+
+.sc-compact-bottom {
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+}
+
+.sc-compact-bottom h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 0px;
+}
+
+.sc-compact-bottom div {
+    text-align: right;
+}
+
+.sc-list-item-content {
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-fixed-left-grid-col {
+    width: 190px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-fixed-left-grid-col img {
+    height: 100%;
+}
+
+.sc-list-item-content ul {
+    width: 530px;
+    height: 190px;
+    float: left;
+}
+
+.sc-list-item-content ul li:nth-child(1) {
+    color: #0F1111 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+
+.sc-list-item-content ul li:nth-child(2) {
+    color: #058552 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+
+.sc-list-item-content ul li:nth-child(4) {
+    color: #565959 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+
+.sc-list-item-content ul li:nth-child(5) {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.sc-list-item-content ul li:nth-child(6) {
+    margin: 10px 0;
+}
+
+.sc-list-item-content ul li:nth-child(6) span {
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #007185 !important;
+}
+
+.a-size-medium {
+    white-space: nowrap;
+    color: #0F1111 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+}
+
+#proceed-to-checkout-desktop-container {
+    margin-bottom: 20px;
+    background-color: #FFF;
+    overflow: auto;
+    padding: 20px 20px 15px 20px;
+    float: right;
+}
+
+.sc-sss-box {
+    margin-bottom: 22px;
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+
+.sc-sss-box .totalPrice {
+    color: #0F1111 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+    white-space: nowrap;
+}
+
+.sc-buy-box-ptc-button {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #FFD814;
+    border-color: #FCD200;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.sc-your-amazon-cart-is-empty {
+    width: 100%;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sc-your-amazon-cart-is-empty h2 {
+    line-height: 50px;
+}
+
+.sc-your-amazon-cart-is-empty p {
+    line-height: 50px;
+}
+
+.sc-shop-todays-deals-link {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #FFD814;
+    border-color: #FCD200;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.sc-shop-todays-deals-link a {
+    font-size: 16px!important;
+    line-height: 24px!important;
+    color: #0F1111;
+}

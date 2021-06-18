@@ -1,0 +1,253 @@
+#s-desktop-width-max {
+	display: block;
+	min-width: 790px;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	/* width: 989px; */
+}
+
+#s-desktop-width-max * {
+	box-sizing: border-box;
+}
+
+.seckill-head {
+	width: 100%;
+	background: url(../images/millet/3cba013aa492551729f3a42e1668b9d9.jpg) 50% 0 no-repeat;
+	height: 170px;
+	overflow: hidden;
+	position: relative;
+}
+
+.seckill-head h1 {
+	text-indent: -9999px;
+	font-size: 2em;
+	margin: .67em 0;
+}
+
+.seckill-head ul {
+	width: 100%;
+	overflow: hidden;
+	height: 68px;
+	background: #414141;
+	position: absolute;
+	bottom: 0;
+}
+
+.seckill-head .active {
+	background: #f1393a;
+}
+
+.seckill-head .active em {
+	display: inline-block;
+	margin-left: 30px;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.seckill-head .active span {
+	margin-left: 15px;
+	text-align: left;
+	line-height: 1;
+	vertical-align: middle;
+	color: #fff;
+	display: inline-block;
+}
+
+.seckill-head .active span em {
+	line-height: 20px;
+	text-align: left;
+	display: inline-block;
+	font-style: normal;
+	margin-left: 0;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+.seckill-head .active div {
+	text-align: left;
+	line-height: 1;
+	color: #fff;
+	font-size: 14px;
+
+}
+
+.seckill-head ul li {
+	width: 20%;
+	cursor: pointer;
+	line-height: 68px;
+	height: 68px;
+	text-align: center;
+	list-style: none;
+	float: left;
+	color: #fff;
+}
+
+.seckill-head ul li em {
+	display: inline-block;
+	margin-left: 30px;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+
+.sg-col-inner {
+	padding: 0 12px;
+	height: 100%;
+	direction: ltr;
+	width: 100%;
+}
+
+#s-desktop-width-max .a-section {
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-top: 16px !important;
+	margin-bottom: 12px !important;
+	direction: ltr;
+}
+
+#s-desktop-width-max .a-section .a-size-base {
+	color: #0F1111 !important;
+	padding-bottom: 0;
+	font-size: 14px !important;
+	line-height: 20px !important;
+}
+
+.sg-col-4-of-12 {
+	padding-top: 26px;
+	grid-column: auto/span 4;
+	float: none;
+	min-width: 0;
+	width: auto;
+	max-width: 297.6px;
+	display: block;
+	overflow: visible;
+	direction: ltr;
+	border-bottom: 2px solid #ddd;
+	width: 223px;
+	margin: 0 30px;
+}
+
+
+#s-desktop-width-max .a-spacing-medium {
+	margin-bottom: 16px !important;
+	/* height: 300px; */
+	visibility: visible;
+}
+
+
+#s-desktop-width-max .a-spacing-medium>a {
+	display: block;
+	height: 255px;
+	width: 223px;
+}
+
+#s-desktop-width-max .s-image-square-aspect {
+	/* padding: 0 34px; */
+	display: flex;
+	height: 100%;
+}
+
+#s-desktop-width-max .s-image-square-aspect img {
+	height: 100%;
+	text-align: center;
+	margin: auto;
+	justify-content: center;
+	align-content: center;
+}
+
+.a-spacing-top-small {
+	margin-top: 8px !important;
+	-webkit-line-clamp: 4;
+	max-height: 172.8px;
+	width: 223px;
+}
+
+.a-text-normal {
+	font-size: 16px !important;
+	line-height: 24px !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	text-transform: none !important;
+	text-decoration: none !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	height: 92px;
+}
+
+.a-text-normal:hover {
+	cursor: pointer;
+	color: #C7511F;
+}
+
+.a-spacing-top-small {
+	margin-top: 8px !important;
+	width: 100%;
+	font-size: 14px !important;
+	line-height: 20px !important;
+}
+
+.a-spacing-top-small .a-price {
+	font-size: 21px;
+	color: #B12704;
+	line-height: 32px;
+}
+
+.a-spacing-top-small .a-price .a-price-fraction {
+	top: -.5em;
+	font-size: 12px;
+	position: relative;
+}
+
+.a-spacing-top-micro {
+	padding-top: 4px;
+	margin-top: 0 !important;
+}
+
+.s-align-children-center {
+	vertical-align: middle;
+	width: 100%;
+	color: #565959 !important;
+	font-size: 14px !important;
+	line-height: 20px !important;
+	height: 21px;
+}
+
+.aok-relative {
+	bottom: -3px;
+	position: relative;
+}
+
+.aok-relative .a-icon-medium {
+	background-image: url(../images/millet/M9SSJsDj8YXHO4p.png);
+	width: 53px;
+	height: 15px;
+	background-position: -185px -182px;
+	background-size: 512px 256px;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.a-row {
+	vertical-align: middle;
+	width: 100%;
+	line-height: 20px;
+	font-size: 14px !important;
+	line-height: 20px !important;
+}
+
+.a-color-secondary {
+	height: 20px;
+	width: 100%;
+	margin-bottom: 16px !important;
+}

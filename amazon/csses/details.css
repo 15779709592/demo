@@ -1,0 +1,474 @@
+body {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
+}
+
+#dp-container {
+	margin-top: 20px;
+	padding-top: 0;
+	min-width: 996px;
+	padding: 38px 18px 18px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+#dp-container * {
+	box-sizing: border-box;
+}
+
+#ppd {
+	width: 1227px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+#leftCol {
+	/* width: 45.0%; */
+}
+
+#leftCol .a-fixed-left-grid {
+	width: 567px;
+	height: 568px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.imgTagWrapper {
+	width: 100%;
+	heigh : 100%;
+	width: 530px;
+	height: 568px;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+}
+
+.imgTagWrapper img {
+	height: 100%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.magnifierLens {
+	width: 50%;
+	height: 40%;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background-color: #fff;
+	opacity: .5;
+	display: none;
+}
+
+
+.zoomWindow {
+	width: 610px;
+	height: 568px;
+	position: absolute;
+	top: 0;
+	left: 104%;
+	z-index: 20;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	
+}
+
+.detailImg {
+	width: 567px;
+	height: 568px;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+	display: none;
+}
+
+.detailImg img {
+	width: 1134px;
+	position: absolute;
+}
+
+
+#centerCol {
+	width: 325px;
+}
+
+#titleSection {
+	font-size: 19px !important;
+	word-break: break-word;
+	line-height: 32px !important;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+
+#productTitle {
+	font-size: 19px !important;
+	word-break: break-word;
+	line-height: 32px !important;
+	font-weight: 400;
+}
+
+#price {
+	margin-bottom: 8px !important;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.a-color-secondary {
+	padding: 0 3px;
+	white-space: nowrap;
+	text-align: right !important;
+	font-size: 14px !important;
+	line-height: 20px !important;
+}
+
+.a-span12 {
+	width: 285px;
+	padding: 0 3px;
+	padding-right: 0;
+}
+
+.a-size-medium {
+	color: #B12704 !important;
+	font-size: 18px !important;
+	line-height: 24px !important;
+	border-collapse: collapse;
+}
+
+.price-shipping-message {
+	padding-top: 4px;
+	margin-top: 0 !important;
+	color: #0F1111 !important;
+	font-size: 14px !important;
+	line-height: 20px !important;
+}
+
+
+.price-shipping-message a {
+	text-decoration: none;
+	color: #0066c0;
+}
+
+.a-icon-prime {
+	display: inline-block;
+	width: 53px;
+	height: 15px;
+	background-image: url(../images/millet/M9SSJsDj8YXHO4p.png);
+	background-position: -185px -182px;
+	vertical-align: baseline;
+	background-size: 512px 256px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 2px;
+}
+
+.a-spacing-top-mini {
+	margin-top: 4px !important;
+	margin-bottom: 4px !important;
+}
+
+.a-spacing-top-small {
+	margin: 8px 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.a-link-normal {
+	text-decoration: none;
+	color: #0066c0;
+}
+
+.a-link-normal:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #c45500;
+}
+
+.a-size-base {
+	color: #B12704 !important;
+}
+
+.a-spacing-top-small .price-shipping-message {
+	width: 100%;
+}
+
+#globalStoreInfoBullets_feature_div {
+	background-color: transparent;
+	display: block;
+	height: 1px;
+	border-width: 0;
+	border-top: 1px solid #e7e7e7;
+	line-height: 19px;
+	margin-top: 0;
+	padding-top: 8px;
+}
+
+.a-size-base-plus {
+	font-size: 16px !important;
+	line-height: 24px !important;
+	font-weight: 700 !important;
+	padding-bottom: 4px;
+}
+
+.a-expander-extend-container {
+	width: 100%;
+}
+
+.a-unordered-list {
+	margin: 0 0 0 18px;
+	color: #0F1111;
+	padding: 0;
+}
+
+.a-unordered-list li {
+	word-wrap: break-word;
+	margin: 0;
+	list-style: disc;
+	color: #0F1111;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#rightCol {
+	width: 244px;
+}
+
+.a-box-group {
+	border-radius: 4px;
+	margin-top: 20px;
+	border: 1px #ddd solid;
+	background-color: #fff;
+	position: relative;
+	padding: 14px 18px;
+}
+
+.a-box-inner {
+	padding: 0 !important;
+}
+
+.celwidget {
+	margin-bottom: 4px !important;
+	color: #B12704 !important;
+	font-size: 18px !important;
+	line-height: 24px !important;
+}
+
+.a-spacing-base {
+	margin-top: 10px;
+	margin-bottom: 12px !important;
+}
+
+.availability {
+	margin-top: 20px !important;
+	margin-bottom: 12px !important;
+	color: #058552 !important;
+	font-size: 18px !important;
+	line-height: 24px !important;
+}
+
+.merchant-info {
+	margin-bottom: 12px !important;
+}
+
+.a-spacing-base {
+	text-align: left !important;
+	margin-bottom: 12px !important;
+}
+
+.a-native-dropdown {
+	padding-right: 5px;
+	z-index: auto;
+	position: static;
+	display: inline;
+	font-weight: normal;
+	padding-left: 2px;
+	padding-bottom: 2px;
+}
+
+.quantity {
+	border: 1px solid #DDD;
+	border-radius: 4px 4px 4px 4px;
+	padding: 3px;
+	transition: all .1s linear;
+	line-height: 19px;
+	color: #0F1111;
+	margin: 0;
+	font-size: 100%;
+	vertical-align: middle;
+	font-family: inherit;
+}
+
+.asg_feature_div {
+	text-align: left !important;
+	margin-bottom: 10px;
+}
+
+.ags_local_price {
+	font-size: 14px !important;
+	line-height: 20px !important;
+	color: #B12704 !important;
+	text-align: left !important;
+}
+
+.ags_shipping_import_fee {
+	font-size: 12px !important;
+	line-height: 16px !important;
+	color: #565959 !important;
+	text-align: left !important;
+	padding-left: 3px;
+}
+
+.a-button-stack {
+	width: 100%;
+}
+
+.a-declarative {
+	display: block;
+	background: #f0c14b;
+	border-color: #a88734 #9c7e31 #846a29;
+	color: #111;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	padding: 0;
+	text-align: center;
+	text-decoration: none !important;
+	vertical-align: middle;
+	margin-bottom: 8px !important;
+}
+
+.a-button-inner {
+	box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
+	background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+	border-radius: 2px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 29px;
+	color: #111;
+}
+
+.a-icon-cart {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	background-image: url(../images/millet/f9Cwl2OUDVHGXk8.png);
+	height: 25px;
+	width: 25px;
+	background-position: -35px -5px;
+	display: inline-block;
+	vertical-align: top;
+	background-size: 400px 900px;
+	background-repeat: no-repeat;
+	font-style: italic;
+}
+
+.a-button-text {
+	color: #111;
+	padding-left: 35px;
+	position: relative;
+	z-index: 10;
+	background-color: transparent;
+	border: 0;
+	display: block;
+	font-size: 13px;
+	line-height: 29px;
+	margin: 0;
+	outline: 0;
+	padding: 0 10px 0 11px;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.a-icon-buynow {
+	top: 2px;
+	left: 2px;
+	position: absolute;
+	background-image: url(../images/millet/f9Cwl2OUDVHGXk8.png);
+	background-size: 400px 900px;
+	background-repeat: no-repeat;
+	font-style: italic;
+	width: 25px;
+	height: 25px;
+	background-position: -35px -60px;
+}
+
+.submit-buy-now {
+	display: block;
+	margin-bottom: 0;
+	background: #ed9220;
+	border-color: #ca7c1b #be751a #a56616;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 0;
+	text-align: center;
+	text-decoration: none !important;
+	vertical-align: middle;
+}
+
+.submit-buy-now .a-button-inner {
+	background: linear-gradient(to bottom, #f6c88f, #ed9220);
+}
+
+.secureTransaction_feature_div {
+	text-align: left !important;
+	margin-bottom: 8px !important;
+	margin-top: 15px;
+}
+
+.aok-align-center {
+	font-weight: 400 !important;
+	font-style: normal !important;
+	text-transform: none !important;
+	color: #0066c0;
+}
+
+.aok-align-center img {
+	vertical-align: top;
+	max-width: 100%;
+	border: 0;
+	height: 15px;
+}
+
+.a-letter-space {
+	margin-left: 6px;
+}
+
+.wishListMainButton {
+	width: auto;
+	display: table-cell;
+	border-radius: 3px;
+	border-left-width: 1px;
+	border: 1px solid;
+	border-color: #adb1b8 #a2a6ac #8d9096;
+	vertical-align: top;
+	background: #e7e9ec;
+	cursor: pointer;
+	padding: 0;
+	text-align: center;
+	text-decoration: none !important;
+	display: block;
+	width: 100%;
+}
+
+.wishListMainButton .a-button-inner {
+	display: block;
+	width: 100%;
+	background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+}
+
+.wishListMainButton .a-button-inner .a-button-text {
+	text-align: left;
+}

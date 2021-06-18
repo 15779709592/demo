@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amazon登入</title>
+    <link rel="stylesheet" type="text/css" href="../csses/cube-min.css" />
+    <link rel="stylesheet" type="text/css" href="../csses/register.css" />
+    <link rel="icon" href="../images/header/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../csses/normalize.css" />
+    <link rel="icon" href="../images/header/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="../csses/normalize.css" />
+    <!-- jq -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- 引入bootstrap.js，bootstrap的js需要依赖一个js库 -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/ajax.js"></script>
+    <!-- cookie文件 -->
+    <script src="../js/cookie.js"></script>
+    <!-- 引入表单校验插件 -->
+    <script src="../js/validate/jquery.validate.min.js"></script>
+    <script src="../js/validate/localization/messages_zh.min.js"></script>
+    <!-- layer弹出 -->
+    <script src="../js/layer/layer.js"></script>
+</head>
+
+<body>
+    <div id="a-page">
+        <div class="a-section">
+            <a href="../index.html">
+                <i class="a-icon-logo-china"></i>
+            </a>
+        </div>
+        <div id="authportal-center-section">
+            <div id="authportal-main-section">
+                <div class="auth-pagelet-container">
+                    <div class="auth-pagelet-container">
+                        <form id="ap_register_form" class="loginForm">
+                            <div class="a-spacing-extra-large">
+                                <div class="a-box-inner">
+                                    <h1 class="a-spacing-small">登入</h1>
+                                    <div class="a-spacing-base">
+                                        <label class="a-form-label">您的账号</label>
+                                        <input type="text" class="a-input-text" name="username" />
+                                    </div>
+                                    <div class="a-spacing-base">
+                                        <label class="a-form-label">密码</label>
+                                        <input type="password" placeholder="至少6个字符" class="a-input-text" name="password" />
+                                    </div>
+                                    <div class="a-checkbox">
+                                        <label>
+                                            <input type="checkbox" name="remember" />
+                                            <span class="a-checkbox-label">记住用户</span>
+                                        </label>
+                                    </div>
+                                    <div class="ap_mobile_number_fields">
+                                        <span class="auth-continue">
+                                            <span class="a-button-inner">
+                                                <button type="submit"
+                                                    class="a-button-text btn btn-default submit">登入</button>
+                                                <!-- <span class="a-button-text">登入</span> -->
+                                        </span>
+                                        </span>
+                                    </div>
+                                    <div class="a-divider">
+                                        <div class="a-divider-inner">
+                                            <span>未拥有账号？<a href="register.html">注册</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="auth-footer">
+            <div class="a-divider">
+                <div class="a-divider-inner">
+                </div>
+            </div>
+            <div class="a-text-center">
+                <a href="javascript:;">使用条件</a>
+                <a href="javascript:;">隐私声明</a>
+                <a href="javascript:;">帮助</a>
+            </div>
+        </div>
+        <p>版权所有 © 1996-2021，亚马逊公司或其关联公司</p>
+    </div>
+</body>
+
+</html>
+<script src="../js/login.js"></script>
